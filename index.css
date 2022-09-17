@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.header {
+   width: 100%;
+   height: 120vh;
+   background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
+   padding-top: 20px;
+}
+
+.container {
+   width: 85%;
+   margin: 0 auto;
+   padding-top: 25;
+}
+
+.navbar {
+   width: 100%;
+   height: 60px;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.05);
+   border-radius: 6px;
+   padding: 25px;
+}
+
+.navbar .logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar .logo a img {
+   width: 25px;
+   height: 25px;
+}
+
+.navbar .logo h3 {
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 27px;
+   letter-spacing: 0.05em;
+   padding-left: 14px;
+}
+
+.navbar-nav {
+   width: 40%;
+}
+
+.navbar-nav ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar-nav ul li {
+   list-style: none;
+}
+
+.navbar-nav ul li a {
+   text-decoration: none;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: rgba(0, 0, 0, 0.5); 
+}
+
+.navbar-nav ul li a:hover {
+   color: #FE5E44;
+}
+
+.navbar-nav span.download {
+   width: 100px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #FE5E44;
+   box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+   border-radius: 5px;
+}
+
+.navbar-nav span.download li a {
+   color: white;
+}
+
+
+/* navbar hero */
+.hero {
+   display: flex;
+   margin-top: 55px;
+}
+
+.hero .hero-content {
+   width: 50%;
+}
+
+.hero-content h1 {
+   font-family: 'Patua One', cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 44px;
+   line-height: 60px;
+   color: #0E144A;
+   padding-bottom: 15px;
+}
+
+.hero-content p {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 34px;
+   color: #6F6F6F;
+   font-family: 'Source Sans Pro', sans-serif;
+   padding-bottom: 15px;
+}
+
+.hero-btn button {
+   width: 170px;
+   height: 45px;
+   background: #FE5E44;
+   box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+   border-radius: 5px;
+   border-style: none;
+   margin-right: 15px;
+   color: white;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 20px;
+}
+
+.hero-btn button.play-demo {
+   background: rgba(254, 94, 68, 0.1);
+   border: 1px solid rgba(254, 94, 68, 0.2);
+   border-radius: 5px;
+   color: #FE5E44;
+}
+
+.hero-content img {
+   padding-top: 25px;
+   width: 85%;
+   margin-left: -50px;
+}
+
+.hero-img img{
+   width: 85%;
+}
+/* akhir navbar hero */
+
+
+/*  awal fitur */
+.fitur {
+   height: 100vh;
+   background-color: white;
+   display: flex;
+}
+
+.fitur-box {
+   padding-top: 80px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.fitur-box .fitur-content {
+   width: 40%;
+}
+
+.fitur-box .fitur-content h1 {
+   font-family: 'Patua One', cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 52px;
+   color: #0E144A;
+   margin-bottom: 15px;
+}
+
+.fitur-box .fitur-content p {
+   font-style: normal;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 32px;
+   color: rgba(14, 20, 74, 0.6);
+   margin-bottom: 25px;
+
+}
+
+.fitur-box .fitur-content .download {
+   display: flex;
+}
+
+.fitur-box .fitur-content .download p {
+   margin-right: 20px;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 9px;
+   line-height: 15px;
+   letter-spacing: 0.1em;
+   color: rgba(12, 27, 77, 0.6);
+}
+
+.fitur-box .fitur-content .download span {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 29px;
+   color: #0C1B4D;
+}
+
+.fitur-box .fitur-card {
+   display: flex;
+   width: 60%;
+   flex-wrap: wrap;
+   flex-direction: row-reverse;
+
+}
+
+.fitur-box .fitur-card .card {
+   width: 260px;
+   height: 190px;
+   background: rgba(254, 94, 68, 0.05);
+   border-radius: 6px;
+   margin: 10px;
+}
+
+.card .box-card {
+   width: 90%;
+   margin: auto;
+}
+
+.card .title {
+   display: flex;
+   align-items: center;
+   padding: 15px 15px ;
+}
+
+.card .title img {
+   width: 40px;
+   margin-right: 15px;
+}
+
+.card .title h4 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.card .box-card p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 28px;
+   color: #000000;
+   padding: 0 15px;
+}
+/* akhir fitur */
+
+/* desc */
+.desc {
+   height: 100vh;
+}
+
+.box-desc {
+   display: flex;
+   width: 100%;
+   align-items: center;
+
+}
+
+.box-desc .img-desc {
+   width: 50%;
+}
+
+.box-desc .img-desc img {
+   width: 90%;
+}
+
+.box-desc .main-desc {
+   width: 50%;;
+}
+
+.box-desc .main-desc h2 {
+   font-family: 'Patua One', cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 45px;
+   color: #0E144A;
+   margin-bottom: 20px;
+}
+
+.box-desc .main-desc p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: rgba(14, 20, 74, 0.6);
+}
+
+.box-desc .main-desc .list-desc {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 20px;
+}
+
+.box-desc .main-desc .list-desc .list-item {
+   width: 220px;
+   margin-right: 25px;
+   margin-bottom: 20px;
+}
+
+.box-desc .main-desc .list-desc .list-item img {
+   width: 25px;
+}
+
+.box-desc .main-desc .list-desc .list-item h4 {
+   font-family: 'Patua One', cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 22px;
+   color: #0E144A;
+   margin-top: 5px;
+}
+
+.box-desc .main-desc .list-desc .list-item p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 25px;
+   color: rgba(14, 20, 74, 0.6);
+   margin-top: 5px;
+}
+/* akhir desc */
+
+/* price */
+.price {
+   height: 170vh;
+   background: rgba(254, 94, 68, 0.05);
+}
+
+.price-title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+.price-title h1{
+   font-family: 'Patua One', cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 45px;
+   color: #0E144A;
+   margin-bottom: 20px;
+   text-align: center;
+   margin-top: 80px;
+}
+
+.price-title p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: rgba(14, 20, 74, 0.6);
+   text-align: center;
+}
+
+.card-price {
+   display: flex;
+   justify-content: center;
+   margin-top: 70px;
+}
+
+.card-price .card {
+   width: 300px;
+   background-color: white;
+   margin: 0 20px;
+   box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+   border-radius: 10px 0px 0px 10px;
+}
+
+.card-price .card:nth-child(1) {
+   height: 480px;
+}
+
+.card-price .card:nth-child(2) {
+   height: 520px;
+}
+
+.card-price .card:nth-child(3) {
+   height: 560px;
+}
+
+.card-price .card .card-content {
+   padding: 30px;
+}
+
+.card-price .card .card-content h4 {
+   font-family: 'IBM Plex Mono', monospace;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 18px;
+   letter-spacing: 0.1em;
+   color: #FE5E44;
+}
+
+.card-price .card .card-content h2 {
+   font-family: 'Patua One', cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 45px;
+   color: #0E144A;
+}
+
+.card-price .card .card-content p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: rgba(14, 20, 74, 0.6);
+}
+
+.card-price .card .card-content ul {
+   margin-top: 20px;
+}
+
+.card-price .card .card-content ul li {
+   font-family: 'Source Sans Pro', sans-serif;
+   list-style: none;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 32px;
+   color: #0C0E2B;
+   display: flex;
+   align-items: center;
+}
+
+.card-price .card .card-content ul li span img {
+   width: 15px;
+   margin-right: 10px;
+}
+
+.card-price .card .card-content button {
+   width: 100%;
+   height: 45px;
+   background: #FE5E44;
+   box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+   border-radius: 5px;
+   border-style: none;
+   margin-right: 15px;
+   color: white;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 20px;
+   margin-top: 50px;
+}
+
+.price .caution p{
+   width: 50%;
+   margin: 100px auto;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: rgba(14, 20, 74, 0.6);  
+   text-align: center;
+}
+
+.price .caution p span {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 32px;
+   text-align: center;
+   color: rgba(14, 20, 74, 0.6);
+}
+/* akhir price */
+
+/* coment */
+.comment {
+   height: 145vh;
+   background: rgba(254, 94, 68, 0.1);
+}
+
+.comment-title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+.comment-title h1{
+   font-family: 'Patua One', cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 45px;
+   color: #0E144A;
+   margin-bottom: 20px;
+   text-align: center;
+   margin-top: 80px;
+}
+
+.comment-title p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: rgba(14, 20, 74, 0.6);
+   text-align: center;
+}
+
+.main-comment {
+   display: flex;
+   justify-content: center;
+}
+
+.main-comment img{
+   width: 90%;
+   display: flex;
+   margin-top: 80px;
+}
+/* akhir coment */
+
+/* footer */
+.rekomendasi {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+.rekomendasi h1{
+   font-family: 'Patua One', cursive;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 45px;
+   color: #0E144A;
+   margin-bottom: 20px;
+   text-align: center;
+   margin-top: 80px;
+}
+
+.rekomendasi p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 28px;
+   color: rgba(14, 20, 74, 0.6);
+   text-align: center;
+}
+
+.rekomendasi .icon-download img {
+   width: 120px;
+   margin: 50px 15px;
+}
+
+.line {
+   width: 90%;
+   height: 1px;
+   margin: auto;
+   background: rgba(14, 20, 74, 0.05);
+   margin-top: 120px;
+}
+
+.media-partner {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 400px;
+   margin-top: 70px;
+}
+
+.media-partner .desc {
+   width: 35%;
+   height: 350px;
+}
+
+.media-partner .desc img {
+   width: 25px;
+   margin-bottom: 10px;
+}
+
+.media-partner h1 {
+   margin-bottom: 15px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 27px;
+   letter-spacing: 0.05em;
+   font-family: 'Patua One', cursive;
+}
+
+.media-partner ul li {
+   list-style: none;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 40px;
+   color: rgba(12, 27, 77, 0.6);
+}
+
+.media-partner p {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: bold;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 28px;
+   color: rgba(14, 20, 74, 0.6);
+}
+
+.footer h2 {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 18px;
+   letter-spacing: 0.05em;
+   color: rgba(14, 20, 74, 0.6);
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+
+.social-media .social-media-logo {
+   display: flex;
+   margin-top: 15px;
+}
+
+.social-media .social-media-logo img {
+   width: 35px;
+   margin: 0 10px 0 0;
+}
+/* akhir footer */
+
+
+
+
